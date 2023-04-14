@@ -6,16 +6,25 @@ function Nav() {
         <nav>
         <ul>
             <li>
-                <a 
-                href="#About-Me"> About Me</a>
+                <Link to="/">
+                    About
+                </Link>
             </li>
             <li>
-                <a 
-                href="#My-Work"> My Work</a>
+                <Link to="/contact">
+                    Contact
+                </Link>
             </li>
             <li>
-                <a 
-                href="#Contact-Me">Contact Me</a></li>
+                <Link to="/portfolio">
+                    My Work
+                </Link>
+            </li>
+            <li>
+                <Link to="/resume">
+                    Resume
+                </Link>
+            </li>
         </ul>
     </nav>
     )
