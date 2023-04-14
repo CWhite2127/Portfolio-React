@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+export default function Footer() {
     <section class="contact">
     <h2 id="Contact-Me">Contact Me</h2>
     <ul>
