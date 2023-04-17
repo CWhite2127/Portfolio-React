@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.1c8cfe65.css",
-    "main.js": "/Portfolio-React/static/js/main.a3867e4b.js",
+    "main.js": "/Portfolio-React/static/js/main.2d58fc90.js",
     "static/media/travel-buddy-screenshot.png": "/Portfolio-React/static/media/travel-buddy-screenshot.ba89d2e95f27eebfb9e3.png",
     "static/media/fluffy.png": "/Portfolio-React/static/media/fluffy.73b97323429bad8ddb1d.png",
     "static/media/IMG_5894.jpg": "/Portfolio-React/static/media/IMG_5894.277bd51ad48765bed1dc.jpg",
@@ -12,10 +12,10 @@
     "static/media/734393_in_linked_media_online_social_icon.png": "/Portfolio-React/static/media/734393_in_linked_media_online_social_icon.e8bd03195bc076bd9792.png",
     "index.html": "/Portfolio-React/index.html",
     "main.1c8cfe65.css.map": "/Portfolio-React/static/css/main.1c8cfe65.css.map",
-    "main.a3867e4b.js.map": "/Portfolio-React/static/js/main.a3867e4b.js.map"
+    "main.2d58fc90.js.map": "/Portfolio-React/static/js/main.2d58fc90.js.map"
   },
   "entrypoints": [
     "static/css/main.1c8cfe65.css",
-    "static/js/main.a3867e4b.js"
+    "static/js/main.2d58fc90.js"
   ]
 }
