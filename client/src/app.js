@@ -11,7 +11,7 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Navigation />
         <Routes>
           <Route path="/" element={<About />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </Router>
     </>
   );
 }
