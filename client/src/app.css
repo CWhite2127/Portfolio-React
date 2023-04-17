@@ -1,0 +1,146 @@
+root {
+--cornflower-blue: #7692ffff;
+--champagne-pink: #ead7d1ff;
+--royal-blue-traditional: #0a2472ff;
+--chinese-violet: #925e78ff;
+--cambridge-blue: #80b192ff;
+}
+
+
+
+header {
+    background-color: #7692ffff;
+    color: #ead7d1ff;
+    font-size: 24px;
+    margin: 0px;
+}
+
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: #925e78ff;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 0px;
+}
+
+li {
+    padding: 8px;
+    font-size: 12px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+h2 {
+    padding: 50px;
+}
+
+
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container aside {
+    flex: 0, 0, 20vw
+    order -1;
+}
+
+.container article {
+    flex: 1;
+}
+
+.aside{
+    display: flex;
+    flex: 1, 0, 20vw;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 100%;
+}
+
+.aside-padding1 {
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+
+.aside-padding2 {
+    padding-bottom: 600px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    justify-content: center;
+}
+
+.card-format {
+    flex: .1 0 auto;
+    text-align: center;
+    border-style: solid;
+    width: 80%;
+    margin: 10px;
+}
+
+.card-format2 {
+    flex-shrink: 1;
+    text-align: center;
+    border-style: solid;
+    width: 40%;
+    margin: 10px;
+}
+
+.card-format footer {
+    background-color: wheat;
+    color: black;
+    font-size: 20px;;
+}
+
+.card-format2 h1 {
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+}
+
+.resize img {
+    width: 150px;
+    height: 150px;
+}
+
+nav a.active {
+    
+}
+
+.page-content {
+    min-height: 70vh;
+}
+
+@media screen and (min-width: 768px) {
+    .card{
+    flex: 0 0 50%;
+    max-width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .card-column {
+    flex: 0 0 50%;
+    max-width: 75%;
+    }
+}

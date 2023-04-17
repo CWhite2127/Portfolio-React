@@ -1,0 +1,21 @@
+
+.navImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navBtns {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+
+}
+
+.navPosition {
+display: flex;
+justify-content: end;
+}
