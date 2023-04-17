@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./app.css";
 import Navigation from "./components/nav/nav";
 import About from "./components/pages/about/about";
@@ -11,7 +11,7 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navigation />
         <Routes>
           <Route path="/" element={<About />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </>
   );
 }
