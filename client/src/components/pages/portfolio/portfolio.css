@@ -14,7 +14,7 @@ body {
 #text {
 	font-size: 10vmin;
 	text-align: center;
-	color: #7692ffff;
+	color: #0a2472ff;
 }
 
 .wrap {
@@ -72,7 +72,7 @@ body {
 	transition: .3s ease-in-out .2s;
 	z-index: 1;
 }
-.image-content {
+#image-content {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -83,6 +83,59 @@ body {
 	transition: .3s ease-in-out;
 	/* border: 1px solid green; */
 }
+
+#image-content-Travel {
+    position: absolute;
+	top: 0;
+	right: 0;
+	width: 80vmin;
+	height: 100%;
+	background-image: url("./travel-buddy-screenshot.png");
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#image-content-Text {
+    position: absolute;
+	top: 0;
+	right: 0;
+	width: 80vmin;
+	height: 100%;
+	background-image: url("./text-editor.png");
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#image-content-Note {
+    position: absolute;
+	top: 0;
+	right: 0;
+	width: 80vmin;
+	height: 100%;
+	background-image: url("./calm-reef-26796.herokuapp.com_.png");
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#image-content-Weather {
+    position: absolute;
+	top: 0;
+	right: 0;
+	width: 80vmin;
+	height: 100%;
+	background-image: url("./weather.png");
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
 
 .dots {
 	position: absolute;
@@ -117,7 +170,7 @@ body {
 	overflow-y: hidden;
 }
 
-#centerPieceText {
+.centerPieceText {
     position: absolute;
 	top: 0;
 	right: 0;

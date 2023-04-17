@@ -12,15 +12,13 @@ function Navigation() {
     <header>
         <img className='navImg' src={sickLicks}></img>
         <div ></div>
-        <Navbar expand="lg right">
-      <Container>
-          <Nav>
+        <Navbar expand="lg">
+          <Nav className="ms-auto">
             <NavLink className="navBtns" to='/'>About</NavLink>
             <NavLink className="navBtns" to="contact">Contact</NavLink>
             <NavLink className="navBtns" to="portfolio">My Work</NavLink>
             <NavLink className="navBtns" to="resume">Resume</NavLink>
           </Nav>
-      </Container>
     </Navbar>
     </header>
     )

@@ -48,7 +48,10 @@ h2 {
     padding: 50px;
 }
 
-
+#header {
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+}
 
 .container {
     display:flex;

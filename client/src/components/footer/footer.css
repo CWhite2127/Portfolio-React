@@ -3,3 +3,23 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.fa-linkedin {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.fa-linkedin:hover {
+    color: #ead7d1ff;
+}
+
+.fa-github {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.fa-github:hover {
+    color: #ead7d1ff;
+}

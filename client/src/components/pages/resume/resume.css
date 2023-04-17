@@ -41,6 +41,12 @@ button span:nth-child(1){
     animation-delay: 1s;
 }
 
+#spacing {
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
 @keyframes span1{
     0%{
         left:-200px
