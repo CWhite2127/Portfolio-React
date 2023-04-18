@@ -37,3 +37,11 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer  
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 Mock-Up
+
+# Screenshot  
+![cwhite2127 github io_Portfolio-React_ (1)](https://user-images.githubusercontent.com/123609107/232637265-db2dbba2-6e60-48b9-afbf-7d9252d96d2a.png)
+
+# Link  
+https://cwhite2127.github.io/Portfolio-React/
+
+
